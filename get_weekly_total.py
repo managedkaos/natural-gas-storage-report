@@ -16,4 +16,4 @@ except requests.exceptions.RequestException as e:
 data = response.json()
 
 # print the desired data
-print( data['series'][0]['data'][0] )
+print( data['series'][0]['data'][0][1] )
